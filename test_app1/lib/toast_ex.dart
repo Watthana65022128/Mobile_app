@@ -22,7 +22,7 @@ class ToastEx extends StatelessWidget {
                 gravity: ToastGravity.BOTTOM,
                 timeInSecForIosWeb: 1,
                 backgroundColor: Colors.black,
-                textColor: Colors.white,
+                textColor: Colors.red,
                 fontSize: 16.0,
               );
             },
