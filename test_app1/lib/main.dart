@@ -1,6 +1,19 @@
 import 'package:flutter/material.dart';
-import 'toast_ex.dart';
+import 'location.dart';
 
 void main() {
-  runApp(const ToastEx());
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Flutter Demo',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: const LocationScreen(),
+    );
+  }
 }
